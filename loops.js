@@ -10,4 +10,4 @@ function forLoop(array) {
     }
     return array;
 }
-function whileLoop(n) {let countdown = n; while (countdown > 0) {return console.log("done")}}
+function whileLoop(n) {let countdown = n; while (countdown > 0) return "done"}
