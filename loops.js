@@ -12,4 +12,4 @@ function forLoop(array) {
 }
 function whileLoop(n) {let countdown = n; while (countdown > 0) {console.log(--countdown)}; return "done"}
 function doWhileLoop(array) {do [array.length - 1];
-} while ([array.length > 0]); return array}
+} while ([array.length > 0 && maybeTrue()]); return array}
