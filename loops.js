@@ -14,7 +14,7 @@ function whileLoop(n) {let countdown = n; while (countdown > 0) {console.log(--c
 function maybeTrue() {{
   return Math.random() >= 0.5
 }
- 
+
 do {
   console.log('doo-bee-doo-bee-doo')
 } while (maybeTrue());}
