@@ -18,5 +18,14 @@ function maybeTrue() {{
 do {
   console.log('doo-bee-doo-bee-doo')
 } while (maybeTrue());}
-function doWhileLoop(array) {do [array.length - 1];
-} while ([array.length > 0 && maybeTrue()]); return array}
+
+function doWhileLoop(array) {
+   function maybeTrue() {
+    return Math.random() >= 0.5
+    }
+ 
+   do {
+         array.pop();
+   } while (array.length > -1 && maybeTrue());
+     return array;
+ }
